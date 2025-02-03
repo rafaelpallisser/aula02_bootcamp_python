@@ -77,16 +77,21 @@ import math
 # print(frase.strip())
 
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
-data = input("Digite uma data no formato dd/mm/yyyy: ")
-data_separada = data.split("/")
-dia = data_separada[0]
-mes = data_separada[1]
-ano = data_separada[2]
-print(f"Dia: {dia}")
-print(f"Mês: {mes}")
-print(f"Ano: {ano}")
+# data = input("Digite uma data no formato dd/mm/yyyy: ")
+# data_separada = data.split("/")
+# dia = data_separada[0]
+# mes = data_separada[1]
+# ano = data_separada[2]
+# print(f"Dia: {dia}")
+# print(f"Mês: {mes}")
+# print(f"Ano: {ano}")
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+txt1 = input("Digite o primeiro texto: ")
+txt2 = input("Digite o segundo texto: ")
+txt_concat = txt1 + " " + txt2
+print(txt_concat)
+
 
 # #### Booleanos (`bool`)
 
