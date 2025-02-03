@@ -1,3 +1,5 @@
+import math
+
 # #### Inteiros (`int`)
 
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
@@ -48,11 +50,16 @@
 # print(potencia)
 
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
-celsius = float(input("Digite a temperatura em graus celsius: "))
-fahrenheit = (celsius * 9 / 5) + 32
-print(f"Temperatura em fahrenheits: {fahrenheit}")
+# celsius = float(input("Digite a temperatura em graus celsius: "))
+# fahrenheit = (celsius * 9 / 5) + 32
+# print(f"Temperatura em fahrenheits: {fahrenheit}")
 
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+pi = math.pi
+raio = float(input("Digite o raio: "))
+area = pi * (raio ** 2)
+print(f"{area:.2f}")
+
 
 # #### Strings (`str`)
 
