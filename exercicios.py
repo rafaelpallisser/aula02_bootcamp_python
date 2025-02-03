@@ -114,12 +114,17 @@ import math
 # print(f"Valor invertido: {valor_bool_invertido}")
 
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
-n1 = float(input("Digite o primeiro número: "))
-n2 = float(input("Digite o segundo número: "))
-valida = n1 == n2
-print(valida)
+# n1 = float(input("Digite o primeiro número: "))
+# n2 = float(input("Digite o segundo número: "))
+# valida = n1 == n2
+# print(f"Os números são diferentes: {valida}")
 
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+n1 = float(input("Digite o primeiro número: "))
+n2 = float(input("Digite o segundo número: "))
+valida = n1 != n2
+print(f"Os números são diferentes: {valida}")
+
 
 # #### try-except e if
 
