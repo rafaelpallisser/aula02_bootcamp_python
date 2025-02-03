@@ -22,14 +22,19 @@
 # print(n1 // n2)
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
-numero = int(input("Digite um número: "))
-quadrado = numero ** 2
-print(quadrado)
+# numero = int(input("Digite um número: "))
+# quadrado = numero ** 2
+# print(quadrado)
 
 
 # #### Números de Ponto Flutuante (`float`)
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
+n1 = float(input("Digite o primeiro número: "))
+n2 = float(input("Digite o segundo número: "))
+adicao = n1 + n2
+print(adicao)
+
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
