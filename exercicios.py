@@ -17,11 +17,15 @@
 # print(multiplicacao)
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
-n1 = float(input("Digite o primeiro número: "))
-n2 = float(input("DIgite o segundo número: "))
-print(n1 // n2)
+# n1 = float(input("Digite o primeiro número: "))
+# n2 = float(input("DIgite o segundo número: "))
+# print(n1 // n2)
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+numero = float(input("Digite um número: "))
+quadrado = numero ** 2
+print(quadrado)
+
 
 # #### Números de Ponto Flutuante (`float`)
 
