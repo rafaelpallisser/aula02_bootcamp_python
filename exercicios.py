@@ -108,12 +108,17 @@ import math
 # print(f"{exp1} OR {exp2} = {resultado}")
 
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
-valor_bool = bool(int(input("Digite um valor booleano (1 = True | 0 = False): ")))
-valor_bool_invertido = not valor_bool
-print(f"Valor digitado: {valor_bool}")
-print(f"Valor invertido: {valor_bool_invertido}")
+# valor_bool = bool(int(input("Digite um valor booleano (1 = True | 0 = False): ")))
+# valor_bool_invertido = not valor_bool
+# print(f"Valor digitado: {valor_bool}")
+# print(f"Valor invertido: {valor_bool_invertido}")
 
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+n1 = float(input("Digite o primeiro número: "))
+n2 = float(input("Digite o segundo número: "))
+valida = n1 == n2
+print(valida)
+
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
 # #### try-except e if
